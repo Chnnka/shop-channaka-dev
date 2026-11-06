@@ -1,0 +1,79 @@
+/* --- MANAGED FONT IMPORTS START (do not edit manually) --- */
+/* INTERNAL USE NAME: Heading */
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* INTERNAL USE NAME: Mono */
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* --- MANAGED FONT IMPORTS END --- */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORTS MUST NEVER BE DELETED OR REORDERED — DO NOT DELETE THIS COMMENT */
+@import './_designSystem/ds-6551b66a-cfd3-4df9-a9b1-9ead8d7fe7e9/index.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+@custom-variant dark (&:is(.dark *));
+:root {
+  --background: #faf7f2;
+  --foreground: #1f1d1a;
+  --card: #fdfbf7;
+  --card-foreground: #1f1d1a;
+  --popover: #fdfbf7;
+  --popover-foreground: #1f1d1a;
+  --primary: #24211d;
+  --primary-foreground: #faf7f2;
+  --secondary: #efe9df;
+  --secondary-foreground: #24211d;
+  --muted: #f1ebe1;
+  --muted-foreground: #6f675d;
+  --accent: #ebe3d6;
+  --accent-foreground: #24211d;
+  --destructive: #a0392b;
+  --destructive-foreground: #a0392b;
+  --border: #e3dbcf;
+  --input: #d9d0c2;
+  --ring: #8a6a4f;
+  --chart-1: #8a6a4f;
+  --chart-2: #6b7f4e;
+  --chart-3: #b8873a;
+  --chart-4: #4f5d63;
+  --chart-5: #a0392b;
+  --radius: 0.25rem;
+  --sidebar: #f4efe7;
+  --sidebar-foreground: #1f1d1a;
+  --sidebar-primary: #24211d;
+  --sidebar-primary-foreground: #faf7f2;
+  --sidebar-accent: #ebe3d6;
+  --sidebar-accent-foreground: #24211d;
+  --sidebar-border: #e3dbcf;
+  --sidebar-ring: #8a6a4f;
+}
+@layer base {
+  * {
+    @apply border-border outline-ring;
+  }
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  ::selection {
+    background: #e6d8c3;
+    color: #1f1d1a;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
