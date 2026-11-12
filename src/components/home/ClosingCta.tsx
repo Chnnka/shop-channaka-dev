@@ -15,7 +15,7 @@ export function ClosingCta() {
           Find a piece that belongs on your wall.
         </h2>
         <p className="mx-auto mt-6 max-w-lg text-[15px] leading-relaxed text-[#c9c1b5]">
-          Every artwork ships carefully packed from Sri Lanka, within the island and internationally.
+          Every artwork ships carefully packed from Sri Lanka, with delivery available across the island.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
           <Link

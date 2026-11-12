@@ -20,6 +20,7 @@ import { Checkout } from './pages/Checkout';
 import { CollectionDetail } from './pages/CollectionDetail';
 import { Collections } from './pages/Collections';
 import { Contact } from './pages/Contact';
+import { FAQ } from './pages/FAQ';
 import { Gallery } from './pages/Gallery';
 import { Home } from './pages/Home';
 import { InfoPage } from './pages/InfoPage';
@@ -39,6 +40,7 @@ const router = createBrowserRouter([
   { path: '/collections/:slug', element: <CollectionDetail /> },
   { path: '/about', element: <About /> },
   { path: '/contact', element: <Contact /> },
+  { path: '/faq', element: <FAQ /> },
   { path: '/cart', element: <Cart /> },
   { path: '/checkout', element: <Checkout /> },
   { path: '/order/:orderNumber', element: <OrderConfirmation /> },
