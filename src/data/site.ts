@@ -8,9 +8,9 @@ export const site = {
   email: 'channakagunawardana@gmail.com',
   phone: '+94 70 587 1797',
   location: 'Sri Lanka · studio visits by appointment',
-  heroImage: "/8b56be80-b9b6-4a68-9aed-a6ce67db8541.jpg",
+  heroImage: "/king_01.jpg",
 
-  studioImage: "/6624039a-203b-4386-9718-d4428b481e30.jpg"
+  studioImage: "/lake_round_01.png"
 
 };
 
@@ -30,6 +30,7 @@ export const socialLinks = [
 
 
 export const careLinks = [
+{ label: 'FAQ', to: '/faq' },
 { label: 'Shipping', to: '/info/shipping' },
 { label: 'Returns', to: '/info/returns' },
 { label: 'Privacy Policy', to: '/info/privacy' },
