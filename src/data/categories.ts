@@ -28,7 +28,7 @@ export const categories: CategoryDefinition[] = [
   label: 'Canvas Paintings',
   singular: 'Canvas Painting',
   description: 'Oil and acrylic works on stretched canvas, ready to hang.',
-  coverImage: "/da050b04-5dc0-4d01-b979-33493897efc9.jpg",
+  coverImage: "/sigiriya_01.jpg",
 
   dimensions: 'required',
   weight: 'optional',
@@ -43,7 +43,7 @@ export const categories: CategoryDefinition[] = [
   label: 'Mixed Media Paintings',
   singular: 'Mixed Media Painting',
   description: 'Layered, tactile surfaces combining paint, paper, paste and leaf.',
-  coverImage: "/1a30868e-ea77-4efd-ab77-b7004632d8dc.jpg",
+  coverImage: "/pp_01.png",
 
   dimensions: 'required',
   weight: 'optional',
@@ -58,7 +58,7 @@ export const categories: CategoryDefinition[] = [
   label: 'Mixed Media Drawings',
   singular: 'Mixed Media Drawing',
   description: 'Ink, charcoal, tea washes and chalk on toned papers.',
-  coverImage: "/0344f907-a30c-469b-9847-13639012f129.jpg",
+  coverImage: "/1000558209.jpeg",
 
   dimensions: 'required',
   weight: 'hidden',
@@ -73,7 +73,7 @@ export const categories: CategoryDefinition[] = [
   label: 'River Rock Paintings',
   singular: 'River Rock Painting',
   description: 'Small hand-painted river stones — tiny, tactile, one of a kind.',
-  coverImage: "/62cade88-0751-4d7c-a84e-00988e32cf10.jpg",
+  coverImage: "/IMG_7749f.jpg",
 
   dimensions: 'optional',
   weight: 'required',
@@ -88,7 +88,7 @@ export const categories: CategoryDefinition[] = [
   label: 'Wall Paintings',
   singular: 'Wall Painting',
   description: 'Murals painted on site, or large portable wall panels.',
-  coverImage: "/5b0f4b13-7973-49f6-803a-7d4d36c3610a.jpg",
+  coverImage: "/036__mandala_second_WEB.jpg",
 
   dimensions: 'required',
   weight: 'hidden',
@@ -108,8 +108,8 @@ export const categories: CategoryDefinition[] = [
   id: 'paper-painting',
   label: 'Paper Paintings',
   singular: 'Paper Painting',
-  description: 'Watercolour and gouache on cotton paper, light and luminous.',
-  coverImage: "/494413cb-28dc-4fa5-a832-4485136f34e2.jpg",
+  description: 'Watercolour and gouache on paper, light and luminous.',
+  coverImage: "/FB_IMG_1489405940590.jpg",
 
   dimensions: 'required',
   weight: 'hidden',

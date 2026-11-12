@@ -2,34 +2,34 @@ export const policies = [
 {
   slug: 'shipping',
   title: 'Shipping',
-  intro: 'Every artwork is packed by hand and shipped insured.',
+  intro: 'Orders are delivered within Sri Lanka by local courier or Sri Lanka Post.',
   sections: [
   {
-    heading: 'Within Sri Lanka',
-    body: 'Artworks are sent by tracked, insured courier and usually arrive within 2–4 working days. Studio collection is available by appointment.'
-  },
-  {
-    heading: 'International',
-    body: 'International shipping costs depend on the size, weight and destination of the artwork. We confirm the exact cost by email before dispatch. Import duties or taxes charged by your country are the buyer’s responsibility.'
+    heading: 'Processing & delivery',
+    body: 'Please allow around 2–3 days to process an order before dispatch. Delivery usually takes a few business days after dispatch. Shipping typically costs LKR 600–1,000.'
   },
   {
     heading: 'Packaging',
-    body: 'Works on paper ship flat in archival sleeves between rigid boards. Canvases are corner-protected and boxed. River stones are individually wrapped. [Replace with the studio’s exact packing process.]'
+    body: 'Each artwork is carefully wrapped using standard packing materials to help protect it during delivery.'
+  },
+  {
+    heading: 'Delivery methods',
+    body: 'Orders are sent using a local courier service or Sri Lanka Post.'
   }]
 
 },
 {
   slug: 'returns',
   title: 'Returns',
-  intro: 'Placeholder policy — replace with the studio’s confirmed terms.',
+  intro: 'Cash returns are not available. Exchanges may be possible; contact us to discuss your order.',
   sections: [
   {
-    heading: 'Damage in transit',
-    body: 'If an artwork arrives damaged, please contact us within 48 hours with photographs of the packaging and artwork.'
+    heading: 'Cancellations',
+    body: 'You may cancel your order without a fee within 24 hours of placing it.'
   },
   {
-    heading: 'Change of mind',
-    body: '[Describe whether returns are accepted, the time window, condition requirements and who pays return shipping.]'
+    heading: 'Exchanges & delivery issues',
+    body: 'Exchanges may be possible, and the studio covers exchange shipping costs. If your order arrives damaged or does not arrive, contact us as soon as possible at channakagunawardana@gmail.com or +94 70 587 1797.'
   }]
 
 },
@@ -44,7 +44,7 @@ export const policies = [
   },
   {
     heading: 'Payments',
-    body: 'Card payments are processed by our payment provider on their secure page. We never see or store your full card details.'
+    body: 'Bank transfer is currently accepted. Please contact the studio before ordering for transfer details.'
   }]
 
 },

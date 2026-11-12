@@ -4,6 +4,7 @@ import { CategoryShowcase } from '../components/home/CategoryShowcase';
 import { ClosingCta } from '../components/home/ClosingCta';
 import { CollectionsShowcase } from '../components/home/CollectionsShowcase';
 import { FeaturedArtworks } from '../components/home/FeaturedArtworks';
+import { FAQPreview } from '../components/home/FAQPreview';
 import { HeroSection } from '../components/home/HeroSection';
 import { site } from '../data/site';
 import { usePageMeta } from '../hooks/usePageMeta';
@@ -17,6 +18,7 @@ export function Home() {
       <CategoryShowcase />
       <ArtistIntro />
       <CollectionsShowcase />
+      <FAQPreview />
       <ClosingCta />
     </>);
 
